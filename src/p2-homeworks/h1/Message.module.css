@@ -1,0 +1,88 @@
+.message {
+    width: max-content;
+
+    padding: 10px;
+
+    display: flex;
+    background-color: yellowgreen;
+}
+
+.ava {
+    width: 60px;
+    height: 60px;
+
+    margin-left: 30px;
+
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    align-self: flex-end;
+}
+
+.ava img {
+    width: 70px;
+    height: 105%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.block {
+    display: flex;
+}
+
+.text_block {
+    width: 300px;
+
+    padding: 15px;
+
+    position: relative;
+
+    background-color: black;
+    color: white;
+    border-radius: 6px 6px 6px 0;
+}
+
+.n {
+    margin-bottom: 10px;
+    color: rebeccapurple;
+}
+
+.concave {
+    width: 30px;
+    height: 30px;
+
+    position: relative;
+    background: black;
+    transform: rotate(180deg);
+    align-self: flex-end;
+}
+
+.left_concave {
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background: yellowgreen;
+    border-top-left-radius: 400px;
+}
+
+.m{
+    width: 250px;
+}
+
+.t {
+    margin-bottom: 5px;
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+
+    color: floralwhite;
+    opacity: 40%;
+}

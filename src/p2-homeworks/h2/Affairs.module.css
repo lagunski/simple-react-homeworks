@@ -1,0 +1,28 @@
+.main_block {
+    padding: 20px;
+    background-color: wheat;
+}
+
+.button_del button {
+    margin-left: 20px;
+       background-color: burlywood;
+}
+
+.buttons_filter button {
+
+       background-color: burlywood;
+}
+
+.priority {
+    color: darkslategray;
+}
+
+.affairs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.affairs li {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,41 @@
+.default,
+.red {
+    margin: 20px 30px;
+    padding: 15px 30px;
+
+    display: inline-block;
+
+    overflow: hidden;
+    border: 2px solid;
+    border-bottom-width: 4px;
+    outline: none;
+
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgba(64, 224, 208, 1);
+
+    background: rgba(255, 255, 255, 1);
+    transition: color .3s, background .5s;
+}
+
+.default:hover,
+.red:hover {
+    animation: infinite-spinning 2s infinite;
+    background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+
+}
+
+@keyframes infinite-spinning {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
